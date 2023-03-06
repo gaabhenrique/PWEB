@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atividade 03</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/phosphor-icons"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="app">
+      <div class="headerContainer">
+        <div id="userInfo">
+          <img src="./assets/GabrielAvatar.jpg" alt="Imagem do usuario" />
+          <div id="userStatus">
+            <strong>Gabriel Gonçalves</strong>
+            <div id="status">Online</div>
+          </div>
+        </div>
+        <div id="closeChat">
+          <i class="ph-x"></i>
+        </div>
+      </div>
+      <div class="chatContainer">
+        <div class="dateContainer">Hoje</div>
+
+        <div class="messagesContainer">
+          <div class="messageContainer you">
+            <div class="timeMessage you">Você - 11:25</div>
+            <div class="message you">Olá, bom dia.</div>
+          </div>
+
+          <div class="messageContainer">
+            <div class="timeMessage contact">Gabriel - 11:27</div>
+            <div class="message contact">Oi, bom dia!</div>
+          </div>
+
+          <div class="messageContainer you">
+            <div class="timeMessage you">Você - 11:29</div>
+            <div class="message you">
+              Estou precisando de ajuda com uma pesquisa.
+            </div>
+          </div>
+
+          <div class="messageContainer you">
+            <div class="timeMessage you">Você - 11:35</div>
+            <div class="message you">
+              Você saberia me informar a diferença entre aplicações web, nativas
+              e pwa?
+            </div>
+          </div>
+
+          <div class="messageContainer">
+            <div class="timeMessage contact">Gabriel - 11:35</div>
+            <div class="message contact">Claro</div>
+          </div>
+
+          <div class="messageContainer">
+            <div class="timeMessage contact">Gabriel - 11:37</div>
+            <div class="message contact">
+              Aplicação web são de forma geral, sistemas de informática
+              projetados para utilização através de um navegador, através da
+              internet ou aplicativos desenvolvidos utilizando tecnologias web
+              HTML, JavaScript e CSS. Pode ser executado a partir de um servidor
+              HTTP ou localmente, no dispositivo do usuário.
+            </div>
+          </div>
+
+          <div class="messageContainer">
+            <div class="timeMessage contact">Gabriel - 11:39</div>
+            <div class="message contact">
+              Já os aplicativos nativos, são desenvolvidos para um sistema
+              operacional específico, como Android ou iOS, usando linguagens de
+              programação nativas e geralmente são baixados por meio de lojas de
+              aplicativos. Eles têm acesso a recursos do dispositivo, como
+              câmera e GPS, e podem fornecer uma experiência mais rápida e suave
+              para o usuário.
+            </div>
+          </div>
+
+          <div class="messageContainer">
+            <div class="timeMessage contact">Gabriel - 11:42</div>
+            <div class="message contact">
+              Os Progressive Web Apps (PWA) são uma combinação de site e
+              aplicativo nativo. Eles são criados usando tecnologias web, como
+              HTML, CSS e JavaScript, 5 mas têm recursos semelhantes aos de
+              aplicativos nativos, como a capacidade de trabalhar offline,
+              enviar notificações push e acessar recursos do dispositivo. Eles
+              podem ser instalados na tela inicial do dispositivo do usuário e
+              são capazes de fornecer uma experiência de usuário mais próxima de
+              um aplicativo nativo.
+            </div>
+          </div>
+
+          <div class="messageContainer you">
+            <div class="timeMessage you">Você - 11:45</div>
+            <div class="message you">
+              Agora sim eu entendi, ta joia, obrigado!
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="inputContainer">
+        <input placeholder="Digite sua menssagem" />
+        <button>
+          <i class="ph-paper-plane-right"></i>
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
